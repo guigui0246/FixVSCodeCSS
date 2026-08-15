@@ -1,0 +1,18 @@
+/* Copilot Generated */
+/* make tabs/groups square */
+.monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions,
+.monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions .tab,
+.monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions .monaco-scrollable-element > .tabs-container {
+  border-radius: 0 !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions .tab {
+  font-weight: normal !important;
+}
+
+/* remove bold in tab/section labels */
+.monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions .tab .tab-label,
+.monaco-workbench .part.titlebar,
+.monaco-workbench .part.editor > .content .editor-group-container > .title {
+  font-weight: normal !important;
+}
