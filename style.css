@@ -8,6 +8,7 @@
   --vscode-cornerRadius-large: 0px;
   --vscode-cornerRadius-xLarge: 0px;
 }
+//*/
 
 .monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions .tab,
 .monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions .tab .tab-label,
@@ -15,8 +16,19 @@
 .monaco-workbench .part.panel .composite-bar-container .action-item .action-label {
   font-weight: 400 !important;
 }
+//*/
+
+/* Remove rounded corners throughout VS Code */
+/*
+.monaco-workbench *,
+.monaco-workbench *::before,
+.monaco-workbench *::after {
+    border-radius: 5 !important;
+}
+//*/
 
 /* Specifically flatten split views and panels */
+/*
 .monaco-workbench .split-view-container,
 .monaco-workbench .split-view-view,
 .monaco-workbench .pane-composite-part,
@@ -25,3 +37,4 @@
 .monaco-workbench .content {
     border-radius: 300 !important;
 }
+//*/
