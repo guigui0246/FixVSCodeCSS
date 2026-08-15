@@ -16,13 +16,6 @@
   font-weight: 400 !important;
 }
 
-/* Remove rounded corners throughout VS Code */
-.monaco-workbench *,
-.monaco-workbench *::before,
-.monaco-workbench *::after {
-    border-radius: 3 !important;
-}
-
 /* Specifically flatten split views and panels */
 .monaco-workbench .split-view-container,
 .monaco-workbench .split-view-view,
@@ -30,5 +23,5 @@
 .monaco-workbench .panel,
 .monaco-workbench .editor,
 .monaco-workbench .content {
-    border-radius: 5 !important;
+    border-radius: 15 !important;
 }
