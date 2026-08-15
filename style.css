@@ -1,4 +1,8 @@
-:root {
+:root,
+body,
+.monaco-workbench *,
+.monaco-workbench *::before,
+.monaco-workbench *::after {
   --vscode-fontWeight-regular: 400;
   --vscode-fontWeight-semiBold: var(--vscode-fontWeight-regular) !important;
 
@@ -7,21 +11,5 @@
   --vscode-cornerRadius-medium: var(--vscode-cornerRadius-xSmall) !important;
   --vscode-cornerRadius-large: var(--vscode-cornerRadius-xSmall) !important;
   --vscode-cornerRadius-xLarge: var(--vscode-cornerRadius-xSmall) !important;
-}
-//*/
-
-/* Remove rounded corners throughout VS Code */
-/*
-.monaco-workbench *,
-.monaco-workbench *::before,
-.monaco-workbench *::after {
-  --vscode-fontWeight-semiBold: 400;
-  --vscode-fontWeight-regular: 400;
-
-  --vscode-cornerRadius-xSmall: 2px;
-  --vscode-cornerRadius-small: 2px;
-  --vscode-cornerRadius-medium: 2px;
-  --vscode-cornerRadius-large: 2px;
-  --vscode-cornerRadius-xLarge: 2px;
 }
 //*/
