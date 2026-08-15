@@ -23,5 +23,5 @@
 .monaco-workbench .panel,
 .monaco-workbench .editor,
 .monaco-workbench .content {
-    border-radius: 75 !important;
+    border-radius: 300 !important;
 }
