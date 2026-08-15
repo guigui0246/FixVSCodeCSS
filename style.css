@@ -22,14 +22,14 @@
 .monaco-workbench .part.panel .composite-bar-container,
 .monaco-workbench .part.panel .composite-bar-container .action-item,
 .monaco-workbench .part.panel .composite-bar-container .action-item .action-label {
-  border-radius: 0 !important;
+  border-radius: 1 !important;
 }
 
 /* Remove rounded corners throughout VS Code */
 .monaco-workbench *,
 .monaco-workbench *::before,
 .monaco-workbench *::after {
-    border-radius: 0 !important;
+    border-radius: 1 !important;
 }
 
 /* Specifically flatten split views and panels */
@@ -39,5 +39,5 @@
 .monaco-workbench .panel,
 .monaco-workbench .editor,
 .monaco-workbench .content {
-    border-radius: 0 !important;
+    border-radius: 1 !important;
 }
