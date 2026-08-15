@@ -1,6 +1,8 @@
 :root {
+  --vscode-fontWeight-regular: 400;
   --vscode-fontWeight-semiBold: var(--vscode-fontWeight-regular) !important;
 
+  --vscode-cornerRadius-xSmall: 2px;
   --vscode-cornerRadius-small: var(--vscode-cornerRadius-xSmall) !important;
   --vscode-cornerRadius-medium: var(--vscode-cornerRadius-xSmall) !important;
   --vscode-cornerRadius-large: var(--vscode-cornerRadius-xSmall) !important;
