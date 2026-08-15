@@ -2,39 +2,25 @@
   --vscode-fontWeight-semiBold: 400;
   --vscode-fontWeight-regular: 400;
 
-  --vscode-cornerRadius-xSmall: 0px;
-  --vscode-cornerRadius-small: 0px;
-  --vscode-cornerRadius-medium: 0px;
-  --vscode-cornerRadius-large: 0px;
-  --vscode-cornerRadius-xLarge: 0px;
-}
-//*/
-
-.monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions .tab,
-.monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions .tab .tab-label,
-#workbench\.parts\.panel .composite-bar-container .action-item .action-label,
-.monaco-workbench .part.panel .composite-bar-container .action-item .action-label {
-  font-weight: 400 !important;
+  --vscode-cornerRadius-xSmall: 2px;
+  --vscode-cornerRadius-small: 2px;
+  --vscode-cornerRadius-medium: 2px;
+  --vscode-cornerRadius-large: 2px;
+  --vscode-cornerRadius-xLarge: 2px;
 }
 //*/
 
 /* Remove rounded corners throughout VS Code */
-/*
 .monaco-workbench *,
 .monaco-workbench *::before,
 .monaco-workbench *::after {
-    border-radius: 5 !important;
-}
-//*/
+  --vscode-fontWeight-semiBold: 400;
+  --vscode-fontWeight-regular: 400;
 
-/* Specifically flatten split views and panels */
-/*
-.monaco-workbench .split-view-container,
-.monaco-workbench .split-view-view,
-.monaco-workbench .pane-composite-part,
-.monaco-workbench .panel,
-.monaco-workbench .editor,
-.monaco-workbench .content {
-    border-radius: 300 !important;
+  --vscode-cornerRadius-xSmall: 2px;
+  --vscode-cornerRadius-small: 2px;
+  --vscode-cornerRadius-medium: 2px;
+  --vscode-cornerRadius-large: 2px;
+  --vscode-cornerRadius-xLarge: 2px;
 }
 //*/
