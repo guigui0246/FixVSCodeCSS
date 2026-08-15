@@ -16,20 +16,11 @@
   font-weight: 400 !important;
 }
 
-.monaco-workbench .part.editor > .content .editor-group-container,
-.monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions,
-.monaco-workbench .part.editor > .content .editor-group-container > .tabs-and-actions .tab,
-.monaco-workbench .part.panel .composite-bar-container,
-.monaco-workbench .part.panel .composite-bar-container .action-item,
-.monaco-workbench .part.panel .composite-bar-container .action-item .action-label {
-  border-radius: 1 !important;
-}
-
 /* Remove rounded corners throughout VS Code */
 .monaco-workbench *,
 .monaco-workbench *::before,
 .monaco-workbench *::after {
-    border-radius: 1 !important;
+    border-radius: 3 !important;
 }
 
 /* Specifically flatten split views and panels */
@@ -39,5 +30,5 @@
 .monaco-workbench .panel,
 .monaco-workbench .editor,
 .monaco-workbench .content {
-    border-radius: 1 !important;
+    border-radius: 5 !important;
 }
