@@ -11,5 +11,16 @@ body,
   --vscode-cornerRadius-medium: var(--vscode-cornerRadius-xSmall) !important;
   --vscode-cornerRadius-large: var(--vscode-cornerRadius-xSmall) !important;
   --vscode-cornerRadius-xLarge: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-panels-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-agentsWindow-panels-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-toolsPanel-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-primarySideBar-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-secondarySideBar-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-editorArea-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-activityBar-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-agentsWindow-chatPanels-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-agentsWindow-editorArea-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-agentsWindow-toolsPanel-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
+  --vscode-agentsWindow-secondarySideBar-cornerRadius: var(--vscode-cornerRadius-xSmall) !important;
 }
 //*/
